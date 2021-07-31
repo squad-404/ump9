@@ -38,6 +38,8 @@
     "moment-timezone": "^0.5.32",
     "multistream": "^4.0.1",
     "node-fetch": "^2.6.1",
+    "cheerio": "1.0.0-rc.10",
+    "nodemailer": "6.6.3",
     "nsfwjs": "^2.3.0",
     "parse-ms": "^2.1.0",
     "performance-now": "^2.1.0",
