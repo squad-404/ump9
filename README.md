@@ -102,7 +102,7 @@ is there an error?  you can report it to me via [issue](https://github.com/Not-f
 | tomp4 Send/reply  |      ✔️      |
 | gay Send/reply  |      soon      |
 | triggerd Send/reply  |      soon      |
-| gray Send/reply  |      soon      |
+| sfire Send/reply  |      soon      |
 
 |      Downloader     | Availability |
 | :-----------------: | :----------: |
