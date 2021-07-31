@@ -166,7 +166,6 @@ const help = (prefix, uptime, boet, jam, tanggal) => {
 ┇ 𝗢𝗪𝗡𝗘𝗥 𝗺𝗲𝗻𝘂 ┇
 ╠══════════╝
 ┃
-┣➣ *_`* [eval]
 ┣➣ *${prefix}stag* 
 ┣➣ *${prefix}hidetag*
 ┣➣ *${prefix}imgtag*
