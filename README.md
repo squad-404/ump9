@@ -151,7 +151,7 @@ is there an error?  you can report it to me via [issue](https://github.com/Not-f
 | Shutdown           |      ✔️      |
 | Add premium user   |      ✔️      |
 
-|    Moderation    | Availability |
+|    Group    | Availability |
 | :--------------: | :----------: |
 | grup              |      ✔️      |
 | welcome             |      ✔️      |
