@@ -1,0 +1,79 @@
+{
+  "name": "404-squad",
+  "version": "0.0.1",
+  "description": "No comment",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "termux",
+    "whatsapp",
+    "bot",
+    "rpg bot",
+    "404 SQUAD",
+    "knights canvas"
+  ],
+  "author": "404 squad",
+  "license": "ISC",
+  "dependencies": {
+    "@adiwajshing/baileys": "github:adiwajshing/baileys",
+    "@tensorflow/tfjs": "^3.3.0",
+    "async": "^3.2.0",
+    "axios": "^0.21.1",
+    "cfonts": "^2.9.0",
+    "escape-string-regexp": "^4.0.0",
+    "fake-useragent": "^1.0.1",
+    "file-type": "^16.2.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs-extra": "^9.1.0",
+    "image-to-base64": "^2.1.1",
+    "imgbb-uploader": "^1.3.0",
+    "lolis.life": "^4.0.0",
+    "moment-timezone": "^0.5.32",
+    "multistream": "^4.0.1",
+    "node-fetch": "^2.6.1",
+    "nsfwjs": "^2.3.0",
+    "parse-ms": "^2.1.0",
+    "performance-now": "^2.1.0",
+    "remove.bg": "^1.3.0",
+    "request": "^2.88.2",
+    "spinnies": "^0.5.1",
+    "tiktok-scraper": "^1.4.7",
+    "axios": "^0.21.1",
+    "brainly-scraper": "^1.0.3",
+    "cfonts": "^2.9.3",
+    "file-type": "^16.5.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs-extra": "^10.0.0",
+    "g-i-s": "^2.1.6",
+    "google-it": "^1.6.2",
+    "hmtai": "^2.0.7",
+    "hx-api": "^1.3.2",
+    "imgbb-uploader": "^1.3.2",
+    "jsdom": "^16.6.0",
+    "moment-timezone": "^0.5.33",
+    "nekobocc": "^1.1.0",
+    "node-cron": "^3.0.0",
+    "node-fetch": "^2.6.1",
+    "parse-ms": "^2.1.0",
+    "performance-now": "^2.1.0",
+    "request": "^2.88.2",
+    "spinnies": "^0.5.1",
+    "twitter-url-direct": "^1.0.1",
+    "yt-search": "^2.9.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Not-found-squad/negev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Not-found-squad/negev/issues"
+  },
+  "homepage": "https://github.com/Not-found-squad/negev#readme"
+}
