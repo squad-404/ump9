@@ -1,0 +1,138 @@
+$card-width = 300px
+$card-height = 450px
+$fancy-text-size = 24px
+$ribbon-text-size = 24px
+$message-text-size = 16px
+
+$primary-color = black
+$secondary-color = blue
+
+/*
+Color Options:
+aqua         black
+blue         fuchsia
+gray         orange
+violet       lavender
+green        lime
+maroon       navy
+olive        purple
+red          silver
+teal         white
+yellow
+*/
+
+
+/*******************************************
+Please don't change anything below this line
+*******************************************/
+
+
+@import url(https://fonts.googleapis.com/css?family=Lobster)
+@import url(https://fonts.googleapis.com/css?family=Raleway)	
+
+lobster = 'Lobster', cursive
+raleway = 'Raleway', sans-serif
+
+html
+  font-size 12px
+
+body
+	width 100%
+	height 100%
+	background #d4d4d4
+	overflow hidden
+
+.container
+	position absolute
+	top 50%
+	left 50%
+	transform translate(-50%,-50%)
+.card
+	width $card-width
+	height $card-height
+	background $primary-color
+	position relative
+	box-shadow -5px -5px 10px rgba(0,0,0,0.3)
+	&:before
+		content ''
+		width $card-width
+		height $card-height
+		position absolute
+		top -50%
+		left -50%
+		transform translate(35%, 42%)
+		background $secondary-color
+		z-index -1
+	& span
+		width 100%
+		position absolute
+		top 50%
+		text-align center
+		font-size $fancy-text-size
+		font-family lobster
+		margin-top 3%
+	& .ribbon
+		width 60%
+		height 40px
+		background $secondary-color
+		font-size $ribbon-text-size
+		font-family raleway
+		text-align center
+		text-transform uppercase
+		line-height @height
+		position absolute
+		top 62%
+		left 50%
+		transform translateX(-50%)
+		&:before, &:after
+			content ''
+			display block
+			width 5px
+			position absolute
+			top 10%
+			border 20px solid darken($secondary-color,10)
+			z-index -1
+		&:before
+			right 90%
+			border-left-width 20px
+			border-left-color transparent
+		&:after
+			left 90%
+			border-right-width 20px
+			border-right-color transparent
+			
+
+.picture
+	width ($card-width - 100px)
+	height @width
+	position absolute
+	top 20px
+	left 50%
+	transform translateX(-50%)
+	background $secondary-color
+	border 3px dashed darken($secondary-color,40)
+	border-radius 50%
+	overflow hidden
+#father
+	width 100%
+	
+.text-box
+	width 80%
+	height 80px
+	position absolute
+	bottom 5%
+	left 50%
+	transform translateX(-50%)
+	background #e8e7d3
+	border 2px dashed #132317
+	border-radius 10px
+	text-align center
+	font-family raleway
+	font-size $message-text-size
+	&:after
+		width 100%
+		position absolute
+		top 50%
+		left 50%
+		transform translate(-50%,-50%)
+/* Original pen by Paolo */
