@@ -1,0 +1,141 @@
+<html>
+                <head>
+                                <style>
+                                                                body{
+  background-image: url("https://i.ibb.co/74fVvH9/images-45.jpg");
+  font-family: 'Sanchez', serif;
+}
+.email-check{
+  max-width:500px;
+  margin:50px auto;
+  text-align:center;
+  padding:20px;
+  background:#ffffff;
+  border-radius:3px;
+  -webkit-box-shadow: 0px 2px 17px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 17px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 2px 17px 0px rgba(0,0,0,0.75);
+}
+.email-check img{
+  max-height:450px;
+}
+.card {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 300px;
+  height: 100px;
+  margin: -150px;
+  float: left;
+  perspective: 500px;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card:hover .content {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.front,
+.back {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #fffc74;
+  line-height: 100px;
+  color: #000000;
+  text-align: center;
+  font-size: 40px;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.back {
+  background: #03446A;
+  color: white;
+  transform: rotateY( 180deg );
+}
+
+                                </style>
+               </head>
+
+                                                <div class="email-check">
+  <div class="email-container">
+    <h2>
+      Email Verification
+    </h2>
+    <img src="https://i.imgur.com/rJBKu0Z.jpg" width="200" height="200" />
+    <p>
+      how to register in 404 SQUAD BOT
+    </p>
+    <p>
+    type +signup your name|age|email|code 
+</p>
+    <center>
+    <a href="#"><span class="glyphicon glyphicon-repeat"></span>404 SQUAD SUPPORT</a>
+  </div>
+</div>
+      
+ <div class="card">
+  <div class="content">
+    <div class="front">
+   
+   	<li id="demo"></li>
+    </div>
+    
+    
+    <div class="back">
+      Thanks 
+    </div>
+  </div>
+</div>     
+<script>
+var rdm = ["165310", 
+"177978", 
+"211759",  
+"212643", 
+"229540", 
+"250029", 
+"211519", 
+"256097", 
+"163478", 
+"91505", 
+"79280", 
+"260629", 
+"128051", 
+"121972", 
+"261633", 
+"172044", 
+"119055", 
+"208323", 
+"149942", 
+"161236", 
+"177150", 
+"233766", 
+"97949", 
+"230107", 
+"175822", 
+"213545", 
+"232837", 
+"179166", 
+"138603", 
+"130183", 
+"173543", 
+"234642", 
+"268015", 
+"228293", 
+"268893", 
+"239536"]
+document.getElementById("demo").innerHTML =
+rdm[Math.floor(Math.random() * rdm.length)];
+</script>
+</html>
