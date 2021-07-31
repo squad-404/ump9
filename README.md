@@ -34,6 +34,7 @@
 > git clone https://github.com/Not-found-squad/ump9
 > cd ump9
 > npm i
+> npm i github:adiwajshing/baileys
 > npm start
 ```
 
@@ -48,6 +49,7 @@
 > git clone https://github.com/Not-found-squad/ump9
 > cd ump9
 > npm i
+> npm i github:adiwajshing/baileys
 > npm start
 ```
 
