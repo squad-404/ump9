@@ -21,7 +21,7 @@
   "author": "404 squad",
   "license": "ISC",
   "dependencies": {
-    "@adiwajshing/baileys": "github:adiwajshing/baileys",
+    "@adiwajshing/baileys": "^3.5.1",
     "@tensorflow/tfjs": "^3.3.0",
     "async": "^3.2.0",
     "axios": "^0.21.1",
