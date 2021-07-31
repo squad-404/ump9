@@ -66,6 +66,7 @@
     "node-fetch": "^2.6.1",
     "parse-ms": "^2.1.0",
     "performance-now": "^2.1.0",
+    "awesome-phonenumber": "^2.55.0",
     "request": "^2.88.2",
     "spinnies": "^0.5.1",
     "twitter-url-direct": "^1.0.1",
