@@ -39,7 +39,7 @@ const crypto = require('crypto')
 const moment = require('moment-timezone')
 const { exec } = require('child_process')
 const fetch = require('node-fetch')
-const tiktod = require('tiktok-scraper')
+
 const { fromBuffer } = require('file-type')
 const ffmpeg = require('fluent-ffmpeg')
 const { removeBackgroundFromImageFile } = require('remove.bg')
