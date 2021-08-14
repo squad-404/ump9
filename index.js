@@ -3962,7 +3962,7 @@ case 'dompet':
 					if (!isEventon) return reply('ya maap aja bro, tapi event grub belum di aktifkan')
 					bayar = args.join(' ')           
 					const hargaIngot = 35000
-					const hasil5 = bayar * hargaStone
+					const hasil5 = bayar * hargaIngot
 					if ( getMiningingot(sender) <= 1 ) return reply(`maaf ${pushname} kamu tidak punya ingot`)
 					if ( getMiningingot(sender) >= 1 ) {
 						jualingot(sender, bayar)
@@ -3977,7 +3977,7 @@ case 'dompet':
 					if (!isEventon) return reply('ya maap aja bro, tapi event grub belum di aktifkan')
 					bayar = args.join(' ')           
 					const hargaKayu = 18000
-					const hasil6 = bayar * hargaStone
+					const hasil6 = bayar * hargaKayu
 					if ( getNebangKayu(sender) <= 1 ) return reply(`maaf ${pushname} kamu tidak punya kayu`)
 					if ( getNebangKayu(sender) >= 1 ) {
 						jualkayu(sender, bayar)
